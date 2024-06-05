@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "D:\pycharm\reinforce\d_reinforce_train.py", line 261, in <module>
+    main()
+  File "D:\pycharm\reinforce\d_reinforce_train.py", line 257, in main
+    reinforce.train_loop()
+  File "D:\pycharm\reinforce\d_reinforce_train.py", line 74, in train_loop
+    action = self.policy.get_action(observation)
+  File "D:\pycharm\reinforce\c_policy_and_value.py", line 56, in get_action
+    mu_v, std_v = self.forward(x)
+  File "D:\pycharm\reinforce\c_policy_and_value.py", line 42, in forward
+    x = F.relu(self.fc2(x))
+  File "D:\pycharm\reinforce\.venv\lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\pycharm\reinforce\.venv\lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\pycharm\reinforce\.venv\lib\site-packages\torch\nn\modules\linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x128 and 512x512)

@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-05-31T06:27:50.170306",
+    "startedAt": "2024-05-31T06:27:49.522445",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\pycharm\\reinforce\\d_reinforce_train.py",
+    "codePathLocal": "d_reinforce_train.py",
+    "codePath": "reinforce\\d_reinforce_train.py",
+    "git": {
+        "remote": "https://github.com/tpals213/pycharm.git",
+        "commit": "096c44ad0b74c2be735a982cfff007be3e4efc33"
+    },
+    "email": "tpals213@gmail.com",
+    "root": "D:/pycharm",
+    "host": "WIN-2B3QDDOELS8",
+    "username": "ict01-05",
+    "executable": "D:\\pycharm\\reinforce\\.venv\\Scripts\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.5107383728027,
+            "used": 112.72575378417969
+        }
+    },
+    "memory": {
+        "total": 15.721599578857422
+    }
+}
